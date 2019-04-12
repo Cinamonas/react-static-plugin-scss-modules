@@ -1,5 +1,5 @@
-import { getLocalIdent } from 'css-loader/dist/utils';
-import ExtractCssChunks from 'extract-css-chunks-webpack-plugin';
+const { getLocalIdent } = require('css-loader/dist/utils');
+const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
 
 export default () => {
   return {
