@@ -1,7 +1,7 @@
 const { getLocalIdent } = require('css-loader/dist/utils');
 const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
 
-module.exports = () => {
+module.exports.default = () => {
   return {
     webpack(config, { stage }) {
       const styleLoader = {
