@@ -1,6 +1,6 @@
 {
   "name": "react-static-plugin-scss-modules",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An opinionated React-Static plugin that enables CSS Modules with SCSS syntax and PostCSS processing",
   "main": "node.api.js",
   "repository": "Cinamonas/react-static-plugin-scss-modules",
