@@ -9,7 +9,6 @@
   "dependencies": {
     "autoprefixer": "^9.5.1",
     "css-loader": "^2.1.1",
-    "extract-css-chunks-webpack-plugin": "^4.3.0",
     "node-sass": "^4.11.0",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^3.0.0",
@@ -22,7 +21,8 @@
     "prettier": "^1.16.4"
   },
   "peerDependencies": {
-    "webpack": "^4.29.6"
+    "webpack": "^4.25.1",
+    "extract-css-chunks-webpack-plugin": "^3.2.1"
   },
   "husky": {
     "hooks": {
